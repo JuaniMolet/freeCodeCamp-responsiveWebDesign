@@ -1,0 +1,112 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-header {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 20px;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: white;
+  transition: background-color 0.3s, padding-left 0.3s;
+  position: relative;
+  padding: 12px 20px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  padding-left: 30px;
+}
+
+a {
+  border-top: 1px solid white;
+  padding: 10px 20px;
+  display: block;
+}
+
+a:last-child {
+  border-bottom: 1px solid white;
+}
+
+main {
+  margin-left: 250px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+header {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: #555;
+}
+
+.code-caveat {
+  font-weight: normal;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #666;
+}
+
+code {
+  display: block;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  margin: 20px 0;
+  padding: 15px;
+  overflow-x: auto;
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+}
+
+li {
+  margin: 10px 0;
+  padding-left: 1.5em;
+  list-style-type: circle;
+}
